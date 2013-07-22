@@ -1,0 +1,10 @@
+D:\brainiac\myplugin\story\obj\Debug\ResolveAssemblyReference.cache
+D:\brainiac\myplugin\story\obj\Debug\StoryPlugin.Properties.Resources.resources
+D:\brainiac\myplugin\story\obj\Debug\StoryPlugin.csproj.GenerateResource.Cache
+D:\brainiac\myplugin\StoryPlugin\obj\Debug\ResolveAssemblyReference.cache
+D:\brainiac\myplugin\StoryPlugin\obj\Debug\StoryPlugin.Properties.Resources.resources
+D:\brainiac\myplugin\StoryPlugin\obj\Debug\StoryPlugin.csproj.GenerateResource.Cache
+D:\brainiac\myplugin\StoryPlugin\bin\Debug\StoryPlugin.dll
+D:\brainiac\myplugin\StoryPlugin\bin\Debug\StoryPlugin.pdb
+D:\brainiac\myplugin\StoryPlugin\obj\Debug\StoryPlugin.dll
+D:\brainiac\myplugin\StoryPlugin\obj\Debug\StoryPlugin.pdb
