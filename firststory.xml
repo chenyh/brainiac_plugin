@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Brainiac.Design.Nodes.Behavior">
+    <Connector Identifier="GenericChildren">
+      <Node Class="StoryPlugin.Nodes.SequenceLinear">
+        <Connector Identifier="GenericChildren">
+          <Node Class="StoryPlugin.Nodes.ActionENTER_SCENE" ActionType="enter_scene" map_id="1001" NodeType="Action" scene_id="1001" x="10" y="10">
+            <Connector Identifier="Finish">
+              <Node Class="StoryPlugin.Nodes.ActionCREATE_CHAR" ActionType="create_char" icon="10012" id="1" name="王二小" NodeType="Action" res_id="10012" x="10" y="10">
+                <Connector Identifier="Finish">
+                  <Node Class="StoryPlugin.Nodes.ActionCHAR_JUMP_TO" ActionType="char_jump_to" ex="10" ey="10" id="1" NodeType="Action">
+                    <Connector Identifier="Finish">
+                      <Node Class="StoryPlugin.Nodes.ActionCHAR_WALK_TO" ActionType="char_walk_to" ex="10" ey="10" id="1" NodeType="Action" />
+                    </Connector>
+                  </Node>
+                </Connector>
+              </Node>
+            </Connector>
+          </Node>
+          <Node Class="StoryPlugin.Nodes.ActionCREATE_CHAR" ActionType="create_char" icon="10012" id="2" name="王二小2" NodeType="Action" res_id="10012" x="10" y="10" />
+          <Node Class="StoryPlugin.Nodes.ActionCHAR_WALK_TO" ActionType="char_walk_to" ex="20" ey="20" id="2" NodeType="Action" />
+        </Connector>
+      </Node>
+    </Connector>
+  </Node>
+</Behavior>

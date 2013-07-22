@@ -61,11 +61,38 @@ namespace StoryPlugin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to NodeGroupActions.
+        ///   Looks up a localized string similar to Actions.
         /// </summary>
         internal static string NodeGroupActions {
             get {
                 return ResourceManager.GetString("NodeGroupActions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sequence.
+        /// </summary>
+        internal static string NodeGroupSequence {
+            get {
+                return ResourceManager.GetString("NodeGroupSequence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SequenceLinear.
+        /// </summary>
+        internal static string SequenceLinear {
+            get {
+                return ResourceManager.GetString("SequenceLinear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SequenceLinearDesc.
+        /// </summary>
+        internal static string SequenceLinearDesc {
+            get {
+                return ResourceManager.GetString("SequenceLinearDesc", resourceCulture);
             }
         }
     }

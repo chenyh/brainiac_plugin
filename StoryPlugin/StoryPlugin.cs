@@ -23,6 +23,13 @@ namespace StoryPlugin
 
             Nodes.ActionSet actionset = new Nodes.ActionSet();
             actionset.AddActions(actions);
+
+            NodeGroup sequences = new NodeGroup(Resources.NodeGroupSequence, NodeIcon.Sequence, null);
+            _nodeGroups.Add(sequences);
+
+
+            sequences.Items.Add(typeof(Nodes.SequenceLinear));
+
         }
     }
 }

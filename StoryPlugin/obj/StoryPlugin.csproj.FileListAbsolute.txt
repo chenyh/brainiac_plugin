@@ -8,3 +8,5 @@ D:\brainiac\myplugin\StoryPlugin\bin\Debug\StoryPlugin.dll
 D:\brainiac\myplugin\StoryPlugin\bin\Debug\StoryPlugin.pdb
 D:\brainiac\myplugin\StoryPlugin\obj\Debug\StoryPlugin.dll
 D:\brainiac\myplugin\StoryPlugin\obj\Debug\StoryPlugin.pdb
+D:\Program Files\Brainiac Designer\plugins\StoryPlugin.dll
+D:\Program Files\Brainiac Designer\plugins\StoryPlugin.pdb

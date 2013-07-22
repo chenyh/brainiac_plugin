@@ -13,10 +13,10 @@ namespace StoryPlugin
 {
     class StoryAction : Action
     {
-        protected ConnectorSingle _finishChildren;
+        protected ConnectorMultiple _finishChildren;
 
         protected string _node_type = "Action";
-        [DesignerString("NodeType", "", "CategoryBasic", DesignerProperty.DisplayMode.NoDisplay, 0, DesignerProperty.DesignerFlags.NoFlags)]
+        [DesignerString("NodeType", "", "CategoryExt", DesignerProperty.DisplayMode.NoDisplay, 0, DesignerProperty.DesignerFlags.ReadOnly)]
         public string NodeType
         {
             get { return _node_type; }
@@ -26,7 +26,7 @@ namespace StoryPlugin
 
 
         protected string _action_type = "";
-        [DesignerString("ActionType", "", "CategoryBasic", DesignerProperty.DisplayMode.NoDisplay, 0, DesignerProperty.DesignerFlags.NoFlags)]
+        [DesignerString("ActionType", "", "CategoryExt", DesignerProperty.DisplayMode.NoDisplay, 0, DesignerProperty.DesignerFlags.ReadOnly)]
         public string ActionType
         {
             get { return _action_type; }
@@ -34,7 +34,7 @@ namespace StoryPlugin
         }
 
         public StoryAction (string label, string description): base(label, description) {
-            _finishChildren = new ConnectorSingle(_children, string.Empty, "Finish");
+            _finishChildren = new ConnectorMultiple(_children, string.Empty, "Finish", 1, 50);
         }
     }
 }
